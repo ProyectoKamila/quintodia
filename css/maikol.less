@@ -1,0 +1,196 @@
+@import 'variables.less';
+
+.contenido{
+    .menu-responsive{
+        min-height:35px;
+        overflow:hidden;
+        position:relative;
+            .search-responsive{
+
+
+                height:35px;
+                overflow:hidden;
+                    margin-top: 4px;
+                .input{
+                    width:100%;
+                    height:33px;
+                    border:1px solid white;
+                    background:@azul;
+                    outline:none;
+                    margin-top:2px;
+                }
+                .submited{
+                        width: 100%;
+                        background: white;
+                        height: 35px;
+                        margin-top: 2px;
+                        overflow: hidden;
+                        position: relative;
+                        margin-left: -32px;
+                        max-width: 35px;
+                        .btn-submit{
+                         width: 35px;
+                        height: 35px;
+                        margin-top: -38px;
+                        z-index: 20;
+                        opacity: 0;
+                        position: relative;
+                        display: block;
+
+                        }
+                        .fa{
+                            width: 35px;
+                            height: 35px;
+                            position: relative;
+                           top: 5px;
+
+                            text-align: center;
+                            z-index:1;
+                        }
+                }
+            }
+            .menu-boton{
+                        width: 35px;
+                        background: white;
+                        height: 35px;
+                        margin-top: 6px;
+                        overflow: hidden;
+                        position: relative;
+                        float:right;
+                        cursor:pointer;
+                        .fa{
+                            text-align: center;
+                            position: relative;
+                            display: block;
+                            margin-top: 11px;
+                        }
+            }
+            .list{
+                height:0px;
+                overflow:hidden;
+                transition:1s all ease-in-out;
+                width:0%;
+            }
+            .open{
+                height:auto !important;
+                 width:100%;
+                  overflow:hidden;
+                transition:1s all ease-in-out;
+            }
+            .nav-pills>li , .nav-pills>li+li{
+              margin-left:-2px !important;
+              text-align:center !important;
+            }
+    }
+}
+
+
+
+@media  (max-width:990px){
+.contenido{
+    nav.menu{
+            .nav{
+                li{
+                    a{
+                        color: white;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        border-radius: 0px;
+                        padding-top: 13px;
+                    }
+                    a:hover{
+                        border-bottom:0px solid @azul;
+                    }
+                }
+            }
+    }
+    .nav.columnas{
+        ul{
+
+        }
+    }
+
+}
+
+
+
+
+
+
+}
+
+.search1
+    {
+        .input{background:white !important;}
+    }
+.fle
+	{
+		color:red;
+		font-size:60px;
+		cursor:pointer;
+		background-color: red;
+    	height: 46px;
+    	margin:0px 30px;
+	}
+.conten-image
+    {
+        width:100%;
+        height:auto;
+    }
+.image-quinta
+    {
+        width:100%;
+        height:auto;
+    }
+
+.conten-image-frase
+    {
+        width:100%;
+        height:auto;
+    }
+.image-quintase
+    {
+        width:100%;
+        height:auto;
+    }
+.magazine
+    {
+        width:100%;
+        margin:auto;
+        height:auto;
+    }
+.marco1
+    {
+        height:5px;
+    }
+
+.title-cat
+    {
+        width: 100%;
+        height: 40px;
+        background: #323031;
+        overflow: hidden;
+        margin-bottom: 20px;
+        h2
+            {
+                text-align: left;
+                font-size: 16px;
+                color: white;
+                margin: 0px;
+                padding: 12px;
+            }
+    }
+.publi-head
+    {
+        width:100%;
+        img{width:100%;}
+    }
+
+.title-cat
+    {
+
+    }
+
+
+
+

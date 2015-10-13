@@ -1,0 +1,101 @@
+.padd {
+    margin-top: 13px;
+    padding-left: 2%;
+    padding-right: 1%;
+}
+.padd:nth-child(2), .padd:nth-child(4){
+    padding-left: 1%;
+    padding-right: 2%;
+}
+.title-hover {
+    position: absolute;
+    bottom: 0%;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-left: 4%;
+    margin-right: 2%;
+    transition:1s all;
+}
+.title-hover:hover{
+    background: rgba(0, 0, 0, 0.5);
+}
+.padd{
+    .title-hover{
+        i.fa.fa-search {
+            position: absolute;
+            color: transparent;
+            font-size: 20px;
+            border: 1px solid transparent;
+            top: 39%;
+            left: 39%;
+            right: 45%;
+            bottom: 45%;
+            width: 25%;
+            height: 27%;
+            text-align: center;
+            border-radius: 50%;
+            line-height: 1.5;
+            transition:1s all;
+        }
+        i.glyphicon.glyphicon-play-circle {
+            position: absolute;
+            color: transparent;
+            font-size: 30px;
+            top: 39%;
+            left: 39%;
+            right: 45%;
+            bottom: 45%;
+            width: 25%;
+            height: 25%;
+            text-align: center;
+            transition: 1s all;
+        }
+    }
+}
+.padd:nth-child(2), .padd:nth-child(4) {
+    .title-hover{
+    margin-left: 2% !important;
+    margin-right: 4% !important;
+        i.fa.fa-search{
+            left: 39%;
+    }
+
+
+    }
+}
+.title-hover {
+    p {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    transition:1s all;
+    }
+}
+
+.title-hover:hover {
+    p {
+    background-color: transparent;
+    padding-bottom: 10px;
+    }
+    i.fa.fa-search{
+        color:white !important;
+        border-color:white !important;
+    }
+    i.glyphicon.glyphicon-play-circle{
+        color:white !important;
+    }
+}
+.art {
+    div {
+        p {
+            a {
+                float: right;
+                margin-right: 3%;
+            }
+        }
+    }
+}
